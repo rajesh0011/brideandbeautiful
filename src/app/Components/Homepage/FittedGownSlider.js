@@ -42,7 +42,7 @@ const FittedGownSlider = () => {
   ];
 
   return (
-    <section className="section-padding offer-slider-sec postion-relative overflow-hidden">
+    <section className="section-padding offer-slider-sec position-relative overflow-hidden">
       <Image src="/img/flower.png" height={300} width={300} alt="images for" className={offstyle.left_flower3} />
       <div className="container">
         <div className="global-heading-sec text-center">
