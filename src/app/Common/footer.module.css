@@ -1,0 +1,110 @@
+.footer{
+    padding: 3rem 0;
+    color: var(--black);
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+.linkstyle{
+    color: var(--black);
+    text-decoration: none;
+    font-weight: var(--secondary-font-weight);
+    font-style: italic;
+}
+.footerHeading{
+    font-size: 16px;
+    font-family: var(--font-body);
+    font-weight: var(--secondary-font-weight);
+    color: var(--black);
+    font-style: italic;
+}
+.fcoldata{
+    margin-bottom: 0;
+    font-weight: var(--secondary-font-weight);
+    font-style: italic;
+}
+.footerLogo{
+        width: 240px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    /* filter: invert(1); */
+}
+.linkstyle2{
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+}
+.footerLogoD{
+    text-align: center;
+    font-style: italic;
+}
+
+.footerHeading2{
+    font-size: 14px;
+    font-family: var(--font-body);
+    font-weight: var(--primary-font-weight);
+    color: var(--black);
+    font-style: italic;
+    margin-top: 2rem;
+}
+.footerHeadingR{
+    color: var(--black);
+    font-size: 16px;
+    font-family: var(--font-body);
+    font-weight: var(--primary-font-weight);
+    font-style: italic;
+}
+.footerInput{
+    font-size: 14px;
+    font-weight: var(--secondary-font-weight);
+    height: 100%;
+    outline: 1px solid var(--black);
+    border: none;
+    padding: 7px 8px;
+    font-weight: var(--primary-font-weight);
+    border-radius: 5px;
+    font-style: italic;
+        width: 55%;
+        color: var(--black);
+        background-color: transparent;
+}
+.footerSButton{
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: var(--secondary-font-weight);
+    height: 100%;
+    /* width: 100%; */
+    outline: none;
+    border: none;
+    padding: 6px 15px;
+    /* letter-spacing: 3px; */
+    text-transform: capitalize;
+    font-style: italic;
+        margin-left: 10px;
+    border-radius: 5px;
+}
+.fCheckText{
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-left: 6px;
+    font-style: italic;
+}
+.SocialLinkFooter{
+    margin-bottom: 1rem;;
+}
+.socialLink{
+    margin-left: 8px;
+}
+.footerContactData {
+        margin-top: 0rem;
+
+}
+.head{
+    font-size: 16px;
+}

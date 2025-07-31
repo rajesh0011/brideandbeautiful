@@ -1,0 +1,45 @@
+
+/* accordian css */
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    /* background-color: #ffffff; */
+    box-shadow:10px 10px 20px #f2f2f2;
+}
+
+.accordion-title {
+    background-color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.accordion-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .7s ease-in-out
+}
+
+.accordion-content p {
+    padding: 10px;
+    margin: 0;
+    background-color: #fafafa
+}
+
+.accordion-title h5 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #403b3b
+}
+.accordion-title span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.accordion-item:not(:first-of-type){ border-top:1px solid #ddd;}
+#faq .accordion-item .accordion-content p{
+    padding: 10px;
+    text-align: left;
+} 

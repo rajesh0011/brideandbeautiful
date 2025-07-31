@@ -1,0 +1,21 @@
+
+ .counter-heading {
+     font-size: 1.8rem;
+     margin-bottom: 30px;
+     font-weight: bold;
+ }
+ .counter-box {
+     /* padding: 20px; */
+     text-align: center;
+     color: var(--black);
+ }
+ .counter-number {
+     font-size: 1.5rem;
+     font-weight: bold;
+ }
+ .counter-label {
+     margin-top: 0px;
+     font-size: 15px;
+         text-transform: uppercase;
+     font-weight: 500;
+ }

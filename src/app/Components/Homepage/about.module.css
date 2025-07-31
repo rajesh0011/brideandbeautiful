@@ -1,0 +1,49 @@
+
+.about_img_box{
+    border: 15px solid;
+    border-color: transparent var(--red) transparent var(--red);
+}
+
+.about .about_text{
+    font-weight: 500;
+}
+.left_flower{
+position: absolute;
+    bottom: -10%;
+    left: -6%;
+    opacity: .7;
+  /* filter: invert(1); */
+}
+.right_flower{
+position: absolute;
+    top: 10%;
+    right: -6%;
+    opacity: .7;
+  /* filter: invert(1); */
+}
+
+  .about{
+    padding: 0;
+    height: 80vh;
+    align-items: center;
+    padding: 0;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: var(--lred);
+    /* background-image: url(/img/about-bg1.webp); */
+    background-size: cover;
+    width: 100%;
+  }
+
+  .about .about_main_box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.about_main_box .morelink{
+  font-weight: 600;
+}
